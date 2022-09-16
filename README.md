@@ -121,7 +121,7 @@ Karena kita tidak memerlukan fitur *Last_Updated* dan *Current_Ver* kita akan me
 ### Data Normalization
 Normalisasi data yang kita lakukan adalah dengan mengganti nama kolom yang memiliki spasi. Spasi pada kolom tersebut kita ganti dengan karakter '_'(_underscore_). Selain itu kita juga melakukan normalisasi pada kolom 'Size' dengan menghilangkan imbuhan 'M' dan 'k' serta mengonversi seluruh ukuran dalam satuan Mb. Kami juga melakukan penghapusan karakter '+' pada kolom 'Installs' dan karakter '$' pada kolom 'Price'.
 
-# Modeling
+# Modeling and Result
 ---
 
 Proses pemberian rekomendasi pada proyek ini menggunakan metode *Content Based Filtering*
@@ -140,13 +140,20 @@ dihitung berdasarkan pada fitur-fitur yang ada pada item yang dibandingkan. Di s
 ##### Kekurangan
 * Terbatasnya rekomendasi hanya pada item-item yang mirip sehingga tidak ada kesempatan untuk mendapatkan item yang tidak terduga.
 
+### Hasil Pemodelan
 
-# Result and Evaluation
+Berikut adalah hasil pemodelan dengan memberikan 5 rekomendasi aplikasi berdasarkan aplikasi bernama 'Sketch - Draw & Paint' :
+
+![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
+
+![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
+
+# Evaluation
 ---
 
 Pada bagian result and evaluation ini kita akan mengambil sebuah sampel rekomendasi berdasarkan aplikasi bernama 'Sketch - Draw & Paint'. Berikut adalah informasi dari aplikasi 'Sketch - Draw & Paint' :
 
-![app](https://user-images.githubusercontent.com/79641595/190576652-26de0d79-2e1f-4200-850a-e9168bbf3b75.png)
+![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
 
 Berdasarkan aplikasi tersebut, sistem yang kita bangun berhasil memberikan 5 rekomendasi sebagai berikut :
 
@@ -173,4 +180,3 @@ Dari beberapa poin tersebut dapat ditarik sebuah kesimpulan di mana proyek yang 
 
 * Appbrain. (2021). Number of Android Apps on Google Play. Available at: https://www.appbrain.com/stats/number-of-android-apps.
 * Mondi, Rhesa Havilah, Ardhi Wijayanto, dan Winarno. (2019). RECOMMENDATION SYSTEM WITH CONTENT-BASED FILTERING METHOD FOR CULINARY TOURISM IN MANGAN APPLICATION. ITSMART: Jurnal Ilmiah Teknologi dan Informasi.
-
