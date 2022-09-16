@@ -144,7 +144,7 @@ dihitung berdasarkan pada fitur-fitur yang ada pada item yang dibandingkan. Di s
 
 Berikut adalah hasil pemodelan dengan memberikan 5 rekomendasi aplikasi berdasarkan aplikasi bernama 'Sketch - Draw & Paint' :
 
-![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
+![app](https://user-images.githubusercontent.com/79641595/190578774-4bce7cba-9ea2-4096-be13-82cf95779e64.png)
 
 ![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
 
@@ -153,7 +153,7 @@ Berikut adalah hasil pemodelan dengan memberikan 5 rekomendasi aplikasi berdasar
 
 Pada bagian result and evaluation ini kita akan mengambil sebuah sampel rekomendasi berdasarkan aplikasi bernama 'Sketch - Draw & Paint'. Berikut adalah informasi dari aplikasi 'Sketch - Draw & Paint' :
 
-![recommended_app](https://user-images.githubusercontent.com/79641595/190576729-1407a23a-d9a9-4da9-be69-7f07666f8823.png)
+![app](https://user-images.githubusercontent.com/79641595/190578774-4bce7cba-9ea2-4096-be13-82cf95779e64.png)
 
 Berdasarkan aplikasi tersebut, sistem yang kita bangun berhasil memberikan 5 rekomendasi sebagai berikut :
 
